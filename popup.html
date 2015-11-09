@@ -2,14 +2,19 @@
 <html>
   <head>
     <title>Farm plugin</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="popup.js"></script>
   </head>
   <body>
     <h1>Farm</h1>
-    <input type="number" id="input-start">
-    <input type="number" id="input-end">
-    <button id="a-group">Send A group</button>
-    <button id="b-group">Send B group</button>
-    <button id="navigate">Open Asistant</button>
+    <label for="input-start">Strat Row</label>
+    <input type="number" min="0" id="input-start">
+    <label for="input-end">End Row</label>
+    <input type="number" min="0" id="input-end">
+    <div class="buttons">
+      <button id="a-group">Send A group</button>
+      <button id="b-group">Send B group</button>
+      <button id="navigate" class="last">Open Asistant</button>
+    </div>
   </body>
 </html>

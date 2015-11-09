@@ -1,0 +1,51 @@
+body {
+	background-color: #e2d9c7;
+	padding: 10px;
+	color: #554433;
+}
+
+h1 {
+	margin-top: -10px;
+	margin-bottom: 20px;
+	font-size: 1.35em;
+	border-bottom: solid 1px #554433;
+}
+
+input, button {
+	margin-bottom: 10px;
+	width: 100px;
+	border: solid 1px #c10000;
+	border-radius: 3px;
+	outline: none;
+}
+
+button {
+	padding: 5px 10px;
+	background-color: #b10000;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #7a0101;
+	border: solid 1px #7a0101;
+}
+
+input {
+	padding: 2px 4px;
+	color: #b10000;
+}
+
+label {
+	font-size: 0.9em;
+}
+
+.buttons {
+	padding: 5px;
+	border: solid 1px #554433;
+	border-radius: 3px;
+}
+
+.last {
+	margin-bottom: 0;
+}
